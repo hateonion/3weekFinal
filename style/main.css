@@ -124,6 +124,10 @@ header {
   border-radius: 5px;
 }
 
+/* .button--big { */
+/*   width: 200px; */
+/* } */
+
 .hero--left {
   background-image: url("../media/home-computer-hero@2x.jpg");
   background-size: cover;
@@ -245,6 +249,7 @@ header {
 /* ############MainCenter3################ */
 
 .cta__footer {
+  padding: 80px;
   display: flex;
   justify-content: space-between;
   background-color: #0d83dd;
@@ -254,37 +259,80 @@ header {
   display: flex;
   flex-direction: column;
   flex-basis: 0;
-  flex-grow: 6;
+  flex-grow: 3;
 }
 
 .cta__footer-left h2 {
   font-size: 4rem;
   color: white;
+  margin-bottom: 20px;
 }
 
 .cta__footer-subtext {
   display: flex;
-  align-items: center;
+  align-items: space-between;
 }
 
-/* .cta__subtext { */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   justify-content: space-between; */
-/* } */
+.cta__footer-subtext a {
+  font-size: 2rem;
+  flex-basis: 0;
+  flex-grow: 3;
+}
+
+.cta__subtext-span {
+  display: flex;
+  padding-left: 10px;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  flex-grow: 2;
+  align-content: space-around;
+}
+
+.subtext-content{
+  color: white;
+  font-size: 1.5rem;
+}
 
 .cta__footer-right {
   display: flex;
   flex-direction: column;
   flex-basis: 0;
-  flex-grow: 4;
+  flex-grow: 2;
 }
 
-.cta__footer-subtext a {
-  font-size: 2rem;
+/* ############footer################ */
+.footer__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  border-top: 1px solid grey;
 }
 
-.cta__subtext span{
-  color: white;
-  font-size: 1.5rem;
+.footer__left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.social__group {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.social__item {
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+}
+
+.footer__copy span{
+  font-size: 1.4rem;
+  color: #8495a2;
 }
