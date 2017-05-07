@@ -321,6 +321,7 @@ header {
   justify-content: flex-end;
 }
 
+
 .social__group {
   display: flex;
   justify-content: flex-end;
@@ -336,4 +337,14 @@ header {
 .footer__copy span{
   font-size: 1.4rem;
   color: #8495a2;
+}
+
+/* ############Hover################ */
+a:hover {
+  color: #0d83dd;
+}
+
+.button--hover-grey:hover {
+  background-color: #aad662;
+  color: white;
 }
