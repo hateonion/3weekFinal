@@ -282,10 +282,10 @@ header {
 .cta__subtext-span {
   display: flex;
   padding-left: 10px;
-  flex-wrap: wrap;
+  flex-direction: column;
   flex-basis: 0;
   flex-grow: 2;
-  align-content: space-around;
+  justify-content: space-around;
 }
 
 .subtext-content{
